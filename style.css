@@ -107,13 +107,16 @@ button {
   font-weight: bold;
   transition: all .3s
 }
+
 button:active {
   background-color: #01ACB0;
 }
+
 .terms {
   width: 83%;
 }
-.box1 p{
+
+.box1 p {
   font-size: 0.75rem;
   margin: 15px 0 30px 0;
   color: #667484;
@@ -121,99 +124,57 @@ button:active {
   line-height: 150%;
 }
 
-.box2{
+.box2 {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
   border-radius: 7px;
   width: 268px;
-  height: 500px;<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <style>
-    /* Tooltip styles */
-    .tooltip {
-      position: relative;
-      display: inline-block;
-    }
-
-    .tooltip .tooltip-text {
-      visibility: hidden;
-      width: 150px;
-      background-color: #555;
-      color: #fff;
-      text-align: center;
-      border-radius: 5px;
-      padding: 5px;
-      position: absolute;
-      z-index: 1;
-      bottom: 125%; /* Position above the link */
-      left: 50%;
-      margin-left: -75px; /* Center the tooltip */
-      opacity: 0;
-      transition: opacity 0.3s;
-    }
-
-    .tooltip:hover .tooltip-text {
-      visibility: visible;
-      opacity: 1;
-    }
-  </style>
-</head>
-<body>
-
-  <div class="tooltip">
-    <a href="https://example.com">Visit Website</a>
-    <span class="tooltip-text">Click to go to Example.com</span>
-  </div>
-
-</body>
-</html>
+  height: 500px;
   margin: 30px;
+  margin-bottom: 30px;
   background: #fff;
   position: relative;
 }
-.texts{
+
+.texts {
   height: 100px;
   width: 70%;
-  /*
-  border: 1px solid red;
-  */
 }
-.box2 p{
-}
-.text1{
+
+.text1 {
   color: #001149;
   font-size: 1.25rem;
   font-weight: bolder;
   margin: 20px 0 0 20px;
 }
-.text2{
+
+.text2 {
   color: #768393;
   font-size: 1rem;
   margin: 13px 0 0 20px;
 }
 
-.box2 img{
+.box2 img {
   height: 230px;
-  
+
 }
 
-.box2 h3{
+.box2 h3 {
   position: absolute;
   font-size: .90rem;
   left: 10px;
   bottom: 5px;
 }
-.box2 span{
+
+.box2 span {
   color: #001149;
 }
-.box2 a{
+
+.box2 a {
   color: #1E82FF;
 }
 
-.box2 a:hover{
+.box2 a:hover {
   color: #125FC1;
 }
