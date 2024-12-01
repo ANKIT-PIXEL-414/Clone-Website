@@ -1,0 +1,219 @@
+body {
+  background-color: #0ED1D5;
+}
+
+@font-face {
+  font-family: MyFont;
+  src: url('/Montserrat-Regular.ttf') format('truetype');
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: MyFont;
+}
+
+.container {
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.box1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+  border-radius: 7px;
+
+  width: 268px;
+  height: 100%;
+  margin: 30px;
+  background: #fff;
+}
+
+.banner {
+  width: 100%;
+  height: 200px;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+
+}
+
+.inputs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 50px;
+
+}
+
+input {
+  width: 85%;
+  height: 38px;
+  border: 1px solid #E4E9ED;
+  border-radius: 3px;
+  outline: none;
+  font-size: 1rem;
+  color: #68727b;
+  transition: 250ms all;
+  margin: 0 0 20px 0;
+  padding-left: 10px;
+  margin-bottom: 15px;
+}
+
+
+::-webkit-input-placeholder {
+  font-weight: 10%;
+  color: #68727b;
+}
+
+input:hover {
+  border: 1px solid #b3bde0;
+  outline: 4px solid #d1d7ef;
+}
+
+label {
+  margin-bottom: 3px;
+  font-weight: bold;
+}
+
+.name {
+  color: #746F8F;
+  transform: translateX(-60px)
+}
+
+.number {
+  color: #746F8F;
+  transform: translateX(-28px)
+}
+
+button {
+  background: #00D0D4;
+  color: white;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  height: 45px;
+  width: 70%;
+  margin: 10px 0 0 0;
+  font-size: 1.1rem;
+  font-weight: bold;
+  transition: all .3s
+}
+button:active {
+  background-color: #01ACB0;
+}
+.terms {
+  width: 83%;
+}
+.box1 p{
+  font-size: 0.75rem;
+  margin: 15px 0 30px 0;
+  color: #667484;
+  opacity: 90%;
+  line-height: 150%;
+}
+
+.box2{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  border-radius: 7px;
+  width: 268px;
+  height: 500px;<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    /* Tooltip styles */
+    .tooltip {
+      position: relative;
+      display: inline-block;
+    }
+
+    .tooltip .tooltip-text {
+      visibility: hidden;
+      width: 150px;
+      background-color: #555;
+      color: #fff;
+      text-align: center;
+      border-radius: 5px;
+      padding: 5px;
+      position: absolute;
+      z-index: 1;
+      bottom: 125%; /* Position above the link */
+      left: 50%;
+      margin-left: -75px; /* Center the tooltip */
+      opacity: 0;
+      transition: opacity 0.3s;
+    }
+
+    .tooltip:hover .tooltip-text {
+      visibility: visible;
+      opacity: 1;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="tooltip">
+    <a href="https://example.com">Visit Website</a>
+    <span class="tooltip-text">Click to go to Example.com</span>
+  </div>
+
+</body>
+</html>
+  margin: 30px;
+  background: #fff;
+  position: relative;
+}
+.texts{
+  height: 100px;
+  width: 70%;
+  /*
+  border: 1px solid red;
+  */
+}
+.box2 p{
+}
+.text1{
+  color: #001149;
+  font-size: 1.25rem;
+  font-weight: bolder;
+  margin: 20px 0 0 20px;
+}
+.text2{
+  color: #768393;
+  font-size: 1rem;
+  margin: 13px 0 0 20px;
+}
+
+.box2 img{
+  height: 230px;
+  
+}
+
+.box2 h3{
+  position: absolute;
+  font-size: .90rem;
+  left: 10px;
+  bottom: 5px;
+}
+.box2 span{
+  color: #001149;
+}
+.box2 a{
+  color: #1E82FF;
+}
+
+.box2 a:hover{
+  color: #125FC1;
+}
